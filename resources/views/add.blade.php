@@ -6,7 +6,7 @@
         @csrf
         <input id="url" type="text" name="url" value="" placeholder="Type url">
         <input type="submit" value="send">
-        @if($errors)
+        @if(!empty($errors))
             <div style="margin-top:10px; color: red">{{$errors->first('url')}}</div>
         @endif
     </form>

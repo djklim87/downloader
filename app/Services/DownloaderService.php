@@ -33,9 +33,6 @@ class DownloaderService
             if (Storage::disk(self::DOWNLOAD_STORAGE)->exists($downloadRecord->filename)) {
                 $downloadRecord->status = DownloadRecord::STATUS_COMPLETE;
                 $downloadRecord->save();
-            } else {
-                $downloadRecord->status = DownloadRecord::STATUS_ERROR;
-                $downloadRecord->save();
             }
 
         }

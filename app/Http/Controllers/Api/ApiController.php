@@ -18,13 +18,13 @@ class ApiController extends DownloadController
         return response()->json($this->getResults(), 200);
     }
 
-    public function addToQueue(AddToQueue $request)
+    public function add(AddToQueue $request)
     {
         $this->addToQueue($request);
 
         return response()->json([
             'status' => Downloader::STATUS_SUCCESS,
             'message' => 'Url was successfully added to queue'
-        ], 422);
+        ], 200);
     }
 }

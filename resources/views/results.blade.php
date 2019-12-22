@@ -1,6 +1,7 @@
 @extends('app')
 
 @section('content')
+    <h1>Downloads list</h1>
     <a href="/add">Add new</a>
     <table>
         <thead>

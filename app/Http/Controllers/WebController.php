@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\DownloadRecord;
 use App\Http\Requests\AddToQueue;
 use App\Services\DownloaderService;
+use Illuminate\Support\Facades\Storage;
 
 class WebController extends DownloadController
 {
@@ -26,8 +27,11 @@ class WebController extends DownloadController
 
     public function download($id)
     {
-        $record = DownloadRecord::find($id);
+        $record = DownloadRecord::findOrFail($id);
         $filePath = storage_path(DownloaderService::DOWNLOAD_STORAGE . DIRECTORY_SEPARATOR . $record->filename);
-        return response()->download($filePath);
+        if (Storage::disk(DownloaderService::DOWNLOAD_STORAGE)->exists($record->filename)){
+            return response()->download($filePath);
+        }
+        return abort(404);
     }
 }

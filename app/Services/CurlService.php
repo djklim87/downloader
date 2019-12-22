@@ -61,16 +61,13 @@ class CurlService implements Downloader
     public function download($url, $storeTo)
     {
 
-        $command = 'curl -sLJOw \'%{filename_effective}\' "' . $url . '"';
-        exec($command, $filenameOutput);
+        $command = 'cd ' . $storeTo . ' && curl -sLJOw \'%{filename_effective}\' "' . $url . '"';
+        exec($command, $filenameOutput, $returnCode);
         if (!empty($filenameOutput[0])) {
             $this->fileName = $filenameOutput[0];
         } else {
             throw new \Exception('Can\'t get tagret filename');
         }
-
-        $command = 'cd ' . $storeTo . ' && curl -OJ "' . $url . '" > /dev/null';
-        exec($command, $output, $returnCode);
 
         if ($returnCode === 0) {
             return self::STATUS_SUCCESS;

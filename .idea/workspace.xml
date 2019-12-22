@@ -2,25 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7d7b3af-2ec1-4f06-a0f8-e9f259be430d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Console/Commands/DownloadResults.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/ApiController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/WebController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Services/CurlService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/add.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/results.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/queue.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/queue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/ApiController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/ApiController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/WebController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/WebController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/CurlService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/CurlService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/DownloaderService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/DownloaderService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/results.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/results.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +34,9 @@
     <execution>
       <executable path="composer" />
     </execution>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="245" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="downloader" />
@@ -139,15 +144,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Controllers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/phpunit.xml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="php.test.frameworks.configurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -162,9 +168,34 @@
       <recent name="$PROJECT_DIR$/app/Console/Commands" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.run">
+  <component name="RunManager" selected="PHPUnit.CliTest.testResponse">
+    <configuration name="CliTest.testResponse" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\CliTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/CliTest.php" method="testResponse" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DownloadingJobTest.testJob" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\DownloadingJobTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/DownloadingJobTest.php" method="testJob" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="WebTest.testAdd" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\WebTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/WebTest.php" method="testAdd" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="WebTest.testDownload" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\WebTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/WebTest.php" method="testDownload" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="WebTest.testEnqueue" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\WebTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/WebTest.php" method="testEnqueue" scope="Method" />
+      <method v="2" />
+    </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner scope="XML" />
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 7.2" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <TestRunner bootstrap_file="$PROJECT_DIR$/vendor/bin/phpunit" configuration_file="$PROJECT_DIR$/phpunit.xml" scope="XML" use_alternative_bootstrap_file="true" use_alternative_configuration_file="true" />
       <method v="2" />
     </configuration>
     <configuration name="add" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/artisan" scriptParameters="download:add https://www.gravatar.com/avatar/f0af40756420859b5b63cbceb6d30505?s=32&amp;d=identicon&amp;r=PG">
@@ -196,7 +227,21 @@
       <item itemvalue="PHP Script.results" />
       <item itemvalue="PHP Script.run" />
       <item itemvalue="PHPUnit.phpunit.xml" />
+      <item itemvalue="PHPUnit.CliTest.testResponse" />
+      <item itemvalue="PHPUnit.WebTest.testEnqueue" />
+      <item itemvalue="PHPUnit.WebTest.testAdd" />
+      <item itemvalue="PHPUnit.WebTest.testDownload" />
+      <item itemvalue="PHPUnit.DownloadingJobTest.testJob" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.CliTest.testResponse" />
+        <item itemvalue="PHPUnit.DownloadingJobTest.testJob" />
+        <item itemvalue="PHPUnit.WebTest.testDownload" />
+        <item itemvalue="PHPUnit.WebTest.testAdd" />
+        <item itemvalue="PHPUnit.WebTest.testEnqueue" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -221,7 +266,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576901737015</updated>
       <workItem from="1576901739055" duration="20651000" />
-      <workItem from="1577012938179" duration="27885000" />
+      <workItem from="1577012938179" duration="43833000" />
     </task>
     <servers />
   </component>
@@ -232,14 +277,22 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="299" y="54" width="824" height="684" key="#CLI_Interpreters" timestamp="1577025648548">
+    <state x="299" y="54" width="824" height="684" key="#CLI_Interpreters" timestamp="1577042720655">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="299" y="54" width="824" height="684" key="#CLI_Interpreters/67.27.1299.741@67.27.1299.741" timestamp="1577025648548" />
-    <state x="174" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577036615238">
+    <state x="299" y="54" width="824" height="684" key="#CLI_Interpreters/67.27.1299.741@67.27.1299.741" timestamp="1577042720655" />
+    <state x="343" y="27" width="751" height="741" key="#CliTest.testExample" timestamp="1577053381240">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="174" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741@67.27.1299.741" timestamp="1577036615238" />
+    <state x="343" y="27" width="751" height="741" key="#CliTest.testExample/67.27.1299.741@67.27.1299.741" timestamp="1577053381240" />
+    <state x="343" y="27" width="751" height="741" key="#CurlServiceTest" timestamp="1577047486242">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="343" y="27" width="751" height="741" key="#CurlServiceTest/67.27.1299.741@67.27.1299.741" timestamp="1577047486242" />
+    <state x="174" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577052799127">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="174" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741@67.27.1299.741" timestamp="1577052799127" />
     <state x="505" y="84" width="412" height="625" key="#com.intellij.ide.util.MemberChooser" timestamp="1577029480939">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -252,62 +305,78 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="449" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1299.741@67.27.1299.741" timestamp="1576933856201" />
-    <state x="449" y="154" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1577032569223">
+    <state x="449" y="154" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1577057141157">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="449" y="154" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/67.27.1299.741@67.27.1299.741" timestamp="1577032569223" />
+    <state x="449" y="154" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/67.27.1299.741@67.27.1299.741" timestamp="1577057141157" />
     <state x="450" y="312" width="523" height="168" key="ComposerInitDialogKey" timestamp="1577014810359">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="450" y="312" width="523" height="168" key="ComposerInitDialogKey/67.27.1299.741@67.27.1299.741" timestamp="1577014810359" />
-    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1576914995395">
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1577057997528">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1576914995395" />
-    <state width="1253" height="219" key="GridCell.Tab.0.bottom" timestamp="1577040935525">
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1577057997528" />
+    <state width="1253" height="219" key="GridCell.Tab.0.bottom" timestamp="1577058321745">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="219" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1577040935525" />
-    <state width="1253" height="219" key="GridCell.Tab.0.center" timestamp="1577040935524">
+    <state width="1253" height="219" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1577058321745" />
+    <state width="1253" height="219" key="GridCell.Tab.0.center" timestamp="1577058321743">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="219" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1577040935524" />
-    <state width="1253" height="219" key="GridCell.Tab.0.left" timestamp="1577040935524">
+    <state width="1253" height="219" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1577058321743" />
+    <state width="1253" height="219" key="GridCell.Tab.0.left" timestamp="1577058321742">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="219" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1577040935524" />
-    <state width="1253" height="219" key="GridCell.Tab.0.right" timestamp="1577040935525">
+    <state width="1253" height="219" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1577058321742" />
+    <state width="1253" height="219" key="GridCell.Tab.0.right" timestamp="1577058321744">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="219" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1577040935525" />
-    <state width="1253" height="219" key="GridCell.Tab.1.bottom" timestamp="1577040935527">
+    <state width="1253" height="219" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1577058321744" />
+    <state width="1253" height="219" key="GridCell.Tab.1.bottom" timestamp="1577058321746">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="219" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1577040935527" />
-    <state width="1253" height="219" key="GridCell.Tab.1.center" timestamp="1577040935526">
+    <state width="1253" height="219" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1577058321746" />
+    <state width="1253" height="219" key="GridCell.Tab.1.center" timestamp="1577058321745">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="219" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1577040935526" />
-    <state width="1253" height="219" key="GridCell.Tab.1.left" timestamp="1577040935526">
+    <state width="1253" height="219" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1577058321745" />
+    <state width="1253" height="219" key="GridCell.Tab.1.left" timestamp="1577058321745">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="219" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1577040935526" />
-    <state width="1253" height="219" key="GridCell.Tab.1.right" timestamp="1577040935527">
+    <state width="1253" height="219" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1577058321745" />
+    <state width="1253" height="219" key="GridCell.Tab.1.right" timestamp="1577058321745">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="219" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1577040935527" />
+    <state width="1253" height="219" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1577058321745" />
+    <state width="1253" height="219" key="GridCell.Tab.2.bottom" timestamp="1577055757110">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.2.bottom/67.27.1299.741@67.27.1299.741" timestamp="1577055757110" />
+    <state width="1253" height="219" key="GridCell.Tab.2.center" timestamp="1577055757109">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.2.center/67.27.1299.741@67.27.1299.741" timestamp="1577055757109" />
+    <state width="1253" height="219" key="GridCell.Tab.2.left" timestamp="1577055757109">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.2.left/67.27.1299.741@67.27.1299.741" timestamp="1577055757109" />
+    <state width="1253" height="219" key="GridCell.Tab.2.right" timestamp="1577055757109">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.2.right/67.27.1299.741@67.27.1299.741" timestamp="1577055757109" />
     <state x="512" y="322" width="399" height="149" key="NewPhpFileDialog" timestamp="1576907528107">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="512" y="322" width="399" height="149" key="NewPhpFileDialog/67.27.1299.741@67.27.1299.741" timestamp="1576907528107" />
-    <state x="205" y="31" key="SettingsEditor" timestamp="1576915028184">
+    <state x="205" y="31" key="SettingsEditor" timestamp="1577058000762">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="205" y="31" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1576915028184" />
-    <state width="649" height="371" key="XDebugger.FullValuePopup" timestamp="1577039339679">
+    <state x="205" y="31" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1577058000762" />
+    <state width="649" height="371" key="XDebugger.FullValuePopup" timestamp="1577057208081">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="649" height="371" key="XDebugger.FullValuePopup/67.27.1299.741@67.27.1299.741" timestamp="1577039339679" />
+    <state width="649" height="371" key="XDebugger.FullValuePopup/67.27.1299.741@67.27.1299.741" timestamp="1577057208081" />
     <state x="370" y="27" width="683" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1577039899816">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -320,10 +389,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="380" y="175" key="run.anything.popup/67.27.1299.741@67.27.1299.741" timestamp="1576924550035" />
-    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1577026352595">
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1577042159605">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1577026352595" />
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1577042159605" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -334,41 +403,30 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/Services/DownloaderService.php</url>
-          <line>33</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/Services/DownloaderService.php</url>
-          <line>36</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/config/queue.php</url>
           <line>2</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/Http/Controllers/Api/ApiController.php</url>
-          <line>17</line>
-          <option name="timeStamp" value="44" />
+          <url>file://$PROJECT_DIR$/tests/Feature/WebTest.php</url>
+          <line>43</line>
+          <option name="timeStamp" value="87" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/Services/DownloaderService.php</url>
-          <line>29</line>
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/Services/CurlService.php</url>
-          <line>65</line>
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/Services/CurlService.php</url>
-          <line>74</line>
-          <option name="timeStamp" value="54" />
+          <url>file://$PROJECT_DIR$/app/Console/Commands/DownloadResults.php</url>
+          <line>44</line>
+          <option name="timeStamp" value="96" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/downloader@CliTest_testResponse.xml" NAME="CliTest.testResponse Coverage Results" MODIFIED="1577058236150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/downloader@DownloadingJobTest_testJob.xml" NAME="DownloadingJobTest.testJob Coverage Results" MODIFIED="1577057458602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/downloader@phpunit_xml.xml" NAME="phpunit.xml Coverage Results" MODIFIED="1577058005953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/downloader@CurlServiceTest.xml" NAME="CurlServiceTest Coverage Results" MODIFIED="1577047549843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/downloader@CurlServiceTest_testUnreadableFilename.xml" NAME="CurlServiceTest.testUnreadableFilename Coverage Results" MODIFIED="1577047755395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/downloader@WebTest_testAdd.xml" NAME="WebTest.testAdd Coverage Results" MODIFIED="1577054582099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/downloader@DownloaderServiceTest_testDownloader.xml" NAME="DownloaderServiceTest.testDownloader Coverage Results" MODIFIED="1577048714370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

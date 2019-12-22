@@ -14,4 +14,4 @@ use Illuminate\Http\Request;
 */
 
 Route::get('download/results', 'Api\ApiController@results');
-Route::post('download/add', 'Api\ApiController@addToQueue');
+Route::post('download/add', 'Api\ApiController@add');
