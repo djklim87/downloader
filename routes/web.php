@@ -11,6 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'WebController@results');
+Route::get('/add', 'WebController@add');
+Route::post('/enqueue', 'WebController@enqueue');
+Route::get('/download/{id}', 'WebController@download');
